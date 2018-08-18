@@ -110,7 +110,7 @@ button:visited {
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0% 0%;
+  background-position: 80% 0%;
 }
 .main-header__content {
   color: #ffffff;
@@ -217,3 +217,4 @@ button:visited {
 .costs__text span {
   font-weight: 700;
 }
+
