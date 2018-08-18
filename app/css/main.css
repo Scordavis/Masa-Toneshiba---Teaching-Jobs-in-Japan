@@ -129,7 +129,6 @@ button:visited {
 }
 .main-header__offer {
   font-size: 24px;
-  text-transform: uppercase;
   letter-spacing: 2px;
 }
 .main-header__time-digits {
@@ -139,12 +138,13 @@ button:visited {
 .main-header__time-description {
   line-height: 1.3;
 }
-.introduction__paragraph span {
-  color: #ffffff;
-  background-color: #0678be;
-}
 .introduction__column:last-child {
-  border-left: 1px solid #4d4d4d;
+  border-color: #4d4d4d;
+  border-style: solid;
+  border-left-width: 1px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
 }
 .reasons__img {
   height: 100px;
@@ -216,4 +216,48 @@ button:visited {
 }
 .costs__text span {
   font-weight: 700;
+}
+@media screen and (max-width: 1199px) {
+  .main-header {
+    height: 720px;
+  }
+  .main-header__wrapper {
+    background-position: 67% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-header {
+    height: 720px;
+  }
+  .main-header__wrapper {
+    background-position: 71% 0%;
+  }
+  .introduction__column:last-child {
+    border-left-width: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .main-header {
+    height: 720px;
+  }
+  .main-header__wrapper {
+    background-position: 72% 0%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .main-button--big {
+    width: 400px!important;
+    margin: auto;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .main-button--big {
+    width: 200px!important;
+    margin: auto;
+    font-size: 24px;
+  }
 }
