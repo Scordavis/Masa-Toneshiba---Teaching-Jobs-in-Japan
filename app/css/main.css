@@ -129,7 +129,6 @@ button:visited {
 }
 .main-header__offer {
   font-size: 24px;
-  text-transform: uppercase;
   letter-spacing: 2px;
 }
 .main-header__time-digits {
@@ -138,10 +137,6 @@ button:visited {
 }
 .main-header__time-description {
   line-height: 1.3;
-}
-.introduction__paragraph span {
-  color: #ffffff;
-  background-color: #0678be;
 }
 .introduction__column:last-child {
   border-color: #4d4d4d;
