@@ -64,6 +64,11 @@ button:visited {
 .set-bottom-border {
   border-bottom: 2px solid #0678be;
 }
+.block-heading {
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 400;
+}
 .main-button {
   color: #ffffff;
   background-color: #78bf06;
@@ -84,6 +89,17 @@ button:visited {
 .main-button--big {
   font-size: 30px;
 }
+.main-button--small {
+  font-size: 18px;
+}
+.darken-layer {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.45;
+}
 .main-header {
   height: 720px;
 }
@@ -92,14 +108,6 @@ button:visited {
           background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 0%;
-}
-.main-header__darken {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #000000;
-  opacity: 0.45;
 }
 .main-header__content {
   color: #ffffff;
@@ -134,4 +142,61 @@ button:visited {
 }
 .introduction__column:last-child {
   border-left: 1px solid #4d4d4d;
+}
+.reasons__img {
+  height: 100px;
+  width: auto;
+}
+.reasons__text {
+  color: #0678be;
+  font-weight: 400;
+}
+.reasons__text span {
+  font-weight: 700;
+}
+.steps__card {
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 0px 6px 3px 1px rgba(204, 204, 204, 0.6);
+          box-shadow: 0px 6px 3px 1px rgba(204, 204, 204, 0.6);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.steps__card:hover {
+  -webkit-box-shadow: 0px 2px 3px 1px rgba(204, 204, 204, 0.6);
+          box-shadow: 0px 2px 3px 1px rgba(204, 204, 204, 0.6);
+}
+.steps__heading {
+  color: #0678be;
+  font-size: 24px;
+  font-weight: 700;
+}
+.steps__heading span {
+  position: relative;
+  color: #ffffff;
+  text-transform: uppercase;
+  z-index: 12;
+}
+.steps__heading span:after {
+  position: absolute;
+  content: '';
+  width: 250px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0678be;
+  z-index: -1;
+}
+.steps__icon {
+  height: 80px;
+  width: auto;
+}
+.steps__link {
+  color: #014c8c;
+  text-decoration: underline;
+}
+.steps__faq {
+  font-size: 30px;
 }
