@@ -1,0 +1,22 @@
+@media screen and (max-width: 1199px) {
+  .main-header {
+    height: 720px;
+  }
+  .main-header__wrapper {
+    background-position: 67% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-header {
+    height: 720px;
+  }
+  .main-header__wrapper {
+    background-position: 71% 0%;
+  }
+  .introduction__column:last-child {
+    border-left-width: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+  }
+}

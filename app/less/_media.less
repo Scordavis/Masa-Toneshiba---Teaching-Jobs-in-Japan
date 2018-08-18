@@ -1,3 +1,35 @@
+
+
+// media screen and (max-width: 1199px)
 @media screen and (max-width: 1199px){
-	
+	// .main-header
+	.main-header{
+		height: 720px;
+		&__wrapper{
+			background-position: 67% 0%;
+		}
+	}
 }
+
+// media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
+	// .main-header
+	.main-header{
+		height: 720px;
+		&__wrapper{
+			background-position: 71% 0%;
+		}
+	}
+	// .introduction
+	.introduction{
+		&__column{
+			&:last-child{
+				border-left-width: 0px;
+				border-top-width: 1px;
+				border-bottom-width: 0px;
+				border-right-width: 0px;
+			}
+		}
+	}
+}
+

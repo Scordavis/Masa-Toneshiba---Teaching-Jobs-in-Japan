@@ -123,6 +123,7 @@ button{
 		opacity: 0.6;
 	}
 }
+
 // .main-header
 .main-header{
 	height: 720px;
@@ -176,7 +177,12 @@ button{
 	}
 	&__column{
 		&:last-child{
-			border-left: 1px solid @text-color;
+			border-color: @text-color;
+			border-style: solid;
+			border-left-width: 1px;
+			border-top-width: 0px;
+			border-bottom-width: 0px;
+			border-right-width: 0px;
 		}
 	}
 }
