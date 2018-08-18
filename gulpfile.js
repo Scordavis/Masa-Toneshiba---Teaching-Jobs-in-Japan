@@ -44,10 +44,7 @@ gulp.task('scripts', function(){
 gulp.task('css-libs', ['less'], function(){
 	return gulp.src([
 		'app/css/main.css',
-		'app/css/vars.css',
-		'app/css/fonts.css',
 		'app/css/_media.css',
-		'app/css/_theme_color.css',
 		])
 	.pipe(concat('main.css'))
 	// .pipe(cssnano())
