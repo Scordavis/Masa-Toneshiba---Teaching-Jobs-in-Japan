@@ -247,6 +247,13 @@ button:visited {
     background-position: 72% 0%;
   }
 }
+@media screen and (max-width: 760px) {
+  .main-button--big {
+    width: 400px!important;
+    margin: auto;
+    font-size: 24px;
+  }
+}
 @media screen and (max-width: 575px) {
   .main-button--big {
     width: 200px!important;
