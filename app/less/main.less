@@ -1,18 +1,29 @@
-@import 'fonts.less';
-@import 'vars.less';
+// https://fonts.google.com
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Ubuntu:400,700');
+@Ubuntu: 'Ubuntu', sans-serif;
+@PT-Sans: 'PT Sans', sans-serif;
+
+// fonts variable
+@mainFont: 'Ubuntu', sans-serif;
+@defaultFont: 'PT Sans', sans-serif;
+
+// color variable
+@accent-color: #0678be;
+@extra-color: #78bf06;
+@link-color: #014c8c;
+@text-color: #4d4d4d;
+@text-invert-color: #ffffff;
+
+// typografy
+@defoltSize: 18px;
+@reg: 400;
+@bold: 700;
+@defoltLineHeight: 1.5;
+
+
 
 body{
-	p{
-		color: red;
 
-		&:nth-child(even){
-			color: grey;
-		}
-
-		&:nth-child(odd){
-			color: grey;
-		}
-	}
 }
 
 @import '_media';
