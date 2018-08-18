@@ -100,6 +100,9 @@ button:visited {
   background-color: #000000;
   opacity: 0.45;
 }
+.darken-layer--lower {
+  opacity: 0.6;
+}
 .main-header {
   height: 720px;
 }
@@ -199,4 +202,18 @@ button:visited {
 }
 .steps__faq {
   font-size: 30px;
+}
+.costs {
+  color: #ffffff;
+}
+.costs__heading {
+  font-size: 36px;
+  font-family: 'PT Sans', sans-serif;
+}
+.costs__text {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.costs__text span {
+  font-weight: 700;
 }

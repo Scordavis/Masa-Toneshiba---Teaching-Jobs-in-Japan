@@ -118,7 +118,10 @@ button{
 	bottom: 0;
 	left: 0;
 	background-color: #000000;
-	opacity: 0.45
+	opacity: 0.45;
+	&--lower{
+		opacity: 0.6;
+	}
 }
 // .main-header
 .main-header{
@@ -244,6 +247,24 @@ button{
 	}
 	&__faq{
 		font-size: 30px;
+	}
+}
+
+// .costs
+.costs{
+	color: @text-invert-color;
+	// z-index: 2;
+	&__wrapper{}
+	&__heading{
+		font-size: 36px;
+		font-family: @defaultFont;
+	}
+	&__text{
+		font-size: 24px;
+		letter-spacing: 1px;
+		span{
+			font-weight: @bold;
+		}
 	}
 }
 
