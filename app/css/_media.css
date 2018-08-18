@@ -20,3 +20,11 @@
     border-right-width: 0px;
   }
 }
+@media screen and (max-width: 575px) {
+  .main-header {
+    height: 720px;
+  }
+  .main-header__wrapper {
+    background-position: 72% 0%;
+  }
+}
