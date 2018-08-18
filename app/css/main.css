@@ -13,3 +13,13 @@ body p:nth-child(even) {
 body p:nth-child(odd) {
   color: grey;
 }
+
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptsg8LJRfWJmhDAuUs4TYFv.ttf) format('truetype');
+}
+
+
