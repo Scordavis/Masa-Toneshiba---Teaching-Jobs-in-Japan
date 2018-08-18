@@ -23,10 +23,10 @@
 
 
 body{
-	font-size: defoltSize;
+	font-size: @defoltSize;
 	min-width: 320px;
 	position: relative;
-	line-height: 1.65;
+	line-height: 1.3;
 	// letter-spacing: 2px;
 	font-family: @mainFont;
 	overflow-x: hidden;
@@ -79,6 +79,11 @@ button{
 	}
 }
 
+// border bottom:
+.set-bottom-border{
+	border-bottom: 2px solid @accent-color;
+}
+// .main-button
 .main-button{
 	color: @text-invert-color;
 	background-color: @extra-color;
@@ -148,14 +153,35 @@ button{
 	}
 	&__time-description{
 		line-height: 1.3;
-		&span{
+		span{
 		}
 
 	}
 
 }
 
+// .introduction
+.introduction{
 
+	&__wrapper{
+
+	}
+	&__paragraph{
+		span{
+			color: @text-invert-color;
+			background-color: @accent-color;
+
+		}
+
+	}
+	&__column{
+		&:last-child{
+			border-left: 1px solid @text-color;
+		}
+	}
+
+
+}
 
 
 
